@@ -1,0 +1,24 @@
+.drawerExpandMenu {
+  @media (min-width: 768px) {
+    display: none;
+  }
+  .expandToggleIcon {
+    font-size: 1.2rem;
+    // padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  .subRoute {
+    // margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 0.4rem;
+    font-size: 1rem;
+  }
+}

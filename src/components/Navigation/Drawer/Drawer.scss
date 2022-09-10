@@ -1,0 +1,31 @@
+.back_drop_menu {
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.3s ease;
+
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.drawer_nav_menu {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  // justify-content: flex-start;
+  gap: 2rem;
+
+  .drawer_nav_route {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    a {
+      text-decoration: none;
+      font-size: 1.2rem;
+      color: #000;
+      margin-bottom: 10px;
+    }
+  }
+}

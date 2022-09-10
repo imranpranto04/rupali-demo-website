@@ -1,0 +1,54 @@
+.process_covered {
+  background: url("../../../assets/process.png") no-repeat;
+
+  padding-top: 100px;
+  padding-bottom: 180px;
+  h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #ffffff;
+  }
+  .process_covered_content {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    margin-top: 100px;
+
+    .circle_box_content {
+      width: 135px;
+      height: 135px;
+      background: #c1fbff;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+      border-radius: 50%;
+      text-align: center;
+      padding-top: 10px;
+      margin-bottom: 10px;
+
+      h5 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #000000;
+        margin-top: 5px;
+      }
+      h6 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.1;
+        color: #000000;
+      }
+    }
+  }
+}

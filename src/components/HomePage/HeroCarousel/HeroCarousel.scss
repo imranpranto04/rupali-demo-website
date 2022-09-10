@@ -1,0 +1,31 @@
+.heroCarousel {
+}
+
+.carousel-caption {
+  top: 8rem;
+  text-align: left;
+  h1 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px !important;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.carousel_content {
+  //   position: absolute;
+}
