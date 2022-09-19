@@ -12,10 +12,10 @@ const Products = () => {
       <div className="products">
         <div className="product_content">
           <div className="container">
-            <h2>OUR PRODUCTS</h2>
+            <h2 data-aos="zoom-out-left">OUR PRODUCTS</h2>
             <div className="product_details">
               <div className="row">
-                <div className="col-lg-6 ">
+                <div className="col-lg-6 " data-aos="fade-right">
                   <div className="product_details_card">
                     <img src={enginePd} alt="" className="img-fluid" />
                     <div className="p-4">

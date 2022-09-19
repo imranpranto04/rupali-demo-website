@@ -22,7 +22,13 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
             <div className="drawer_nav_routes">
               {routes.map((route) => {
                 if (route.subRoutes) {
-                  return <ExpandMenu route={route} key={route.name} />;
+                  return (
+                    <ExpandMenu
+                      route={route}
+                      key={route.name}
+                      toggleDrawer={toggleDrawer}
+                    />
+                  );
                 }
 
                 return (
@@ -56,8 +62,8 @@ export default Drawer;
 const BackdropMenu = styled.div`
   height: 100%;
   width: 100%;
-  z-index: 100;
-  position: absolute;
+  z-index: 150;
+  position: fixed;
   top: 0;
   left: 0;
   transition: 0.3s ease;
@@ -65,10 +71,10 @@ const BackdropMenu = styled.div`
 `;
 
 const DrawerMenu = styled.div`
-  z-index: 150;
-  position: absolute;
+  z-index: 210;
+  position: fixed;
   top: 0;
-  height: 100vh;
+  min-height: 100vh;
   width: 70%;
   background-color: white;
   transition: 0.3s ease;

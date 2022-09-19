@@ -57,20 +57,43 @@ const Footer = () => {
               </div>
               <div className="col-lg-3 contact">
                 <div className="footer_header">Contact</div>
-                <p>
-                  <b>Email:</b> <br /> info@rupaliinsurance.com
-                  rupaliinsurance@gmail.com
-                </p>
-                <p>
-                  <b>Phone:</b> +02223385625-6, rupaliinsurance@gmail.com
-                </p>
-                <p>
-                  <b>Fax:</b> 02222223385629
-                </p>
-                <p>
-                  <b>Address:</b> <br /> Rupali Bima Bhaban 7, Rajuk Avenue,
-                  Dhaka - 1000
-                </p>
+                <div className="d-flex">
+                  <div className="footer_icon">
+                    <i className="fa-regular fa-envelope"></i>
+                  </div>{" "}
+                  <p>
+                    <b>Email:</b> <br /> info@rupaliinsurance.com
+                    rupaliinsurance@gmail.com
+                  </p>
+                </div>
+
+                <div className="d-flex">
+                  <div className="footer_icon">
+                    <i className="fa-solid fa-phone"></i>
+                  </div>{" "}
+                  <p>
+                    <b>Phone:</b> +02223385625-6, rupaliinsurance@gmail.com
+                  </p>
+                </div>
+
+                <div className="d-flex">
+                  <div className="footer_icon">
+                    <i className="fa-solid fa-fax"></i>
+                  </div>{" "}
+                  <p>
+                    <b>Fax:</b> 02222223385629
+                  </p>
+                </div>
+
+                <div className="d-flex">
+                  <div className="footer_icon">
+                    <i className="fa-solid fa-location-dot"></i>
+                  </div>{" "}
+                  <p>
+                    <b>Address:</b> <br /> Rupali Bima Bhaban 7, Rajuk Avenue,
+                    Dhaka - 1000
+                  </p>
+                </div>
               </div>
             </div>
           </div>

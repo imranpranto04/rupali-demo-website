@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import "./ExpandMenu.scss";
 
-const ExpandMenu = ({ route }) => {
+const ExpandMenu = ({ route, toggleDrawer }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -25,7 +25,9 @@ const ExpandMenu = ({ route }) => {
         <SubRoutesContent isOpen={isMenuOpen}>
           {route.subRoutes.map((subRoute) => (
             <div className="subRoute" key={subRoute.name}>
-              <Link to={subRoute.link}>{subRoute.name}</Link>
+              <Link to={subRoute.link} onClick={toggleDrawer}>
+                {subRoute.name}
+              </Link>
             </div>
           ))}
         </SubRoutesContent>

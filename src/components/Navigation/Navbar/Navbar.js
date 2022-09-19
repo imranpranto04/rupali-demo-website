@@ -5,10 +5,12 @@ import logo from "../../../assets/logo.png";
 import { routes } from "../../../menuItems";
 import Menu from "../Menu/Menu";
 
-const Navbar = ({ routes, toggleDrawer }) => {
+const Navbar = ({ routes, toggleDrawer, scrolling }) => {
+  console.log("scrolling is", scrolling);
+
   return (
     <>
-      <div className="navbar_box">
+      <div className={scrolling ? "navbar_box sticky" : "navbar_box"}>
         <div className="container">
           <div className="nav_content">
             <div className="drawerButton" onClick={toggleDrawer}>

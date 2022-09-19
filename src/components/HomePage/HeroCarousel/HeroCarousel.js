@@ -46,7 +46,7 @@ const HeroCarousel = () => {
 
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src={slider1} className="d-block w-100" alt="..." />
+              <img src={slider1} className="d-block" alt="..." />
               <div className="container">
                 <div className="carousel-caption">
                   <h1>
@@ -64,9 +64,9 @@ const HeroCarousel = () => {
             </div>
 
             <div className="carousel-item">
-              <img src={marine2} className="d-block w-100" alt="..." />
+              <img src={marine2} className="d-block" alt="..." />
               <div className="container">
-                <div className="carousel-caption d-none d-md-block">
+                <div className="carousel-caption">
                   <h1>
                     Reliable Insurance <br /> for Any Purpose
                   </h1>
@@ -82,9 +82,9 @@ const HeroCarousel = () => {
             </div>
 
             <div className="carousel-item">
-              <img src={property} className="d-block w-100" alt="..." />
+              <img src={property} className="d-block" alt="..." />
               <div className="container">
-                <div className="carousel-caption d-none d-md-block">
+                <div className="carousel-caption">
                   <h1>
                     Reliable Insurance <br /> for Any Purpose
                   </h1>
@@ -100,9 +100,9 @@ const HeroCarousel = () => {
             </div>
 
             <div className="carousel-item">
-              <img src={motor} className="d-block w-100" alt="..." />
+              <img src={motor} className="d-block" alt="..." />
               <div className="container">
-                <div className="carousel-caption d-none d-md-block">
+                <div className="carousel-caption">
                   <h1>
                     Reliable Insurance <br /> for Any Purpose
                   </h1>

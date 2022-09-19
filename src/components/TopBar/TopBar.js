@@ -11,7 +11,7 @@ const TopBar = () => {
           <div className="topBarContent">
             <div className="top_logo">
               <Link to="/">
-                <img src={logo} className="img-fluids " alt="" />
+                <img src={logo} className="img-fluid" alt="" />
               </Link>
             </div>
 
@@ -25,7 +25,7 @@ const TopBar = () => {
             </div>
 
             <div className="loginPart">
-              <Link className="btn btn-danger" to="">
+              <Link className="btn ripple_btn" to="">
                 Login
               </Link>
             </div>
